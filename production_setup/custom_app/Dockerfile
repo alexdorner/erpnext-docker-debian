@@ -16,7 +16,7 @@ WORKDIR /home/$systemUser/$benchFolderName
 ##### this is not the best practice to put password in dockerfile
 ##### so please be super careful with your code and docker-image
 ##### PLEASE MAKE SURE YOUR REPOSITORY IN BOTH GITHUB AND DOCKERHUB IS SET TO PRIVATE
-#ENV git_password=your_git_password
+ENV git_password=your_git_password
 #
 #### run install script
 #RUN sudo chmod +x /home/$systemUser/install_custom_app.sh; sync \
