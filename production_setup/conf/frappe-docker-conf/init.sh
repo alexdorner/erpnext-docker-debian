@@ -23,7 +23,7 @@ bench new-site $benchNewSiteName
 bench use $benchNewSiteName
 
 # create install erpnext
-bench install-app erpnext
+bench install-app KIS
 
 # fixed JS error
 bench update --build
