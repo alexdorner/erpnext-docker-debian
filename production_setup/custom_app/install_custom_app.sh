@@ -18,7 +18,7 @@ expect "$ "
 
 # app2
 
-spawn bench get-app <app_name> <app_repo_url>
+spawn bench get-app KIS https://github.com/alexdorner/diplomprojekt-byh
 
 expect "Password for*"
 
